@@ -17,6 +17,17 @@ function App() {
    
     // Counter = Counter + 1
     setcounter(Counter + 1)
+
+  //Interview Question.
+
+    // setcounter(Counter + 1)
+    // setcounter(Counter + 1)
+    // setcounter(Counter + 1)    // all the  above setcounter  became a batch and gives same results . but prevCounter gives updated value.
+    // setcounter(prevCouner => prevCouner + 1)
+    // setcounter(Counter => prevCouner + 1)
+    // setcounter(Counter => prevCouner + 1)
+    // setcounter(Counter => prevCouner + 1)
+
      console.log("value Added", Counter + 1);
     }
     
